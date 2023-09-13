@@ -14,26 +14,26 @@ export const sitemap = [
     link: '/',
     sublinks: [],
   },
-  // {
-  //   id: 2,
-  //   name: 'Launchpad',
-  //   extendable: true,
-  //   icon: <LaunchpadSVG className="fill-dim-text dark:fill-dim-text-dark" />,
-  //   activeIcon: <LaunchpadSVG className="fill-primary-green" />,
-  //   subitems: [
-  //     {
-  //       id: 1,
-  //       name: 'Pools',
-  //       link: '/launchpad/pools',
-  //     },
-  //     {
-  //       id: 2,
-  //       name: 'Create Sale',
-  //       link: '/launchpad/create-sale',
-  //     },
-  //   ],
-  //   sublinks: ['/launchpad/pools', '/launchpad/create-sale'],
-  // },
+  {
+    id: 2,
+    name: 'Launchpad',
+    extendable: true,
+    icon: <DashboardSVG className="fill-dim-text dark:fill-dim-text-dark" />,
+    activeIcon: <DashboardSVG className="fill-primary-green" />,
+    subitems: [
+      {
+        id: 1,
+        name: 'Pools',
+        link: '/launchpad/pools',
+      },
+      {
+        id: 2,
+        name: 'Create Sale',
+        link: '/launchpad/create-sale',
+      },
+    ],
+    sublinks: ['/launchpad/pools', '/launchpad/create-sale'],
+  },
   // {
   //   id: 3,
   //   name: 'Locker',
