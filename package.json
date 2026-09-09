@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "analyze": "source-map-explorer 'build/static/js/*.js'",
-    "start": "react-scripts start",
-    "build": "CI=false react-scripts build",
+    "start": "node init && react-scripts start",
+    "build": "node init && CI=false react-scripts build",
     "winbuild": "react-scripts build",
     "test": "react-scripts test --testPathIgnorePatterns=/src/__tests__/config/",
     "test:config": "react-scripts test --testPathPattern=/src/__tests__/config/",
